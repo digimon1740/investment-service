@@ -1,0 +1,37 @@
+= Users API
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:site-url: /build/asciidoc/html5/
+
+[[v1-me]]
+= GET /api/v1/users/me
+
+== Request
+
+=== curl
+
+include::{snippets}/users/me/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/users/me/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/users/me/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/users/me/http-response.adoc[]
+
+=== body
+include::{snippets}/users/me/response-body.adoc[]
+

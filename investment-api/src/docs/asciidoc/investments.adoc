@@ -1,0 +1,139 @@
+= Investments API
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:site-url: /build/asciidoc/html5/
+
+[[v1-investments]]
+= POST /api/v1/investments
+
+== Request
+
+=== curl
+
+include::{snippets}/investments/post-invest/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/investments/post-invest/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/investments/post-invest/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/investments/post-invest/http-response.adoc[]
+
+=== body
+include::{snippets}/investments/post-invest/response-body.adoc[]
+
+
+[[v1-investments-11404]]
+= POST /api/v1/investments ERROR : -11404
+
+== Request
+
+=== curl
+
+include::{snippets}/investments/post-invest-error-11404/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/investments/post-invest-error-11404/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-11404/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-11404/http-response.adoc[]
+
+=== body
+include::{snippets}/investments/post-invest-error-11404/response-body.adoc[]
+
+
+[[v1-investments-10601]]
+= POST /api/v1/investments ERROR : -10601
+
+== Request
+
+=== curl
+
+include::{snippets}/investments/post-invest-error-10601/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/investments/post-invest-error-10601/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-10601/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-10601/http-response.adoc[]
+
+=== body
+include::{snippets}/investments/post-invest-error-10601/response-body.adoc[]
+
+
+[[v1-investments-12603]]
+= POST /api/v1/investments ERROR : -12603
+
+== Request
+
+=== curl
+
+include::{snippets}/investments/post-invest-error-12603/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/investments/post-invest-error-12603/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-12603/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-12603/http-response.adoc[]
+
+=== body
+include::{snippets}/investments/post-invest-error-12603/response-body.adoc[]
+
+[[v1-investments-12602]]
+= POST /api/v1/investments ERROR : -12602
+
+== Request
+
+=== curl
+
+include::{snippets}/investments/post-invest-error-12602/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/investments/post-invest-error-12602/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-12602/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/investments/post-invest-error-12602/http-response.adoc[]
+
+=== body
+include::{snippets}/investments/post-invest-error-12602/response-body.adoc[]

@@ -1,0 +1,37 @@
+= Products API
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:site-url: /build/asciidoc/html5/
+
+[[v1-products]]
+= GET /api/v1/products
+
+== Request
+
+=== curl
+
+include::{snippets}/products/curl-request.adoc[]
+
+=== httppie
+
+include::{snippets}/products/httpie-request.adoc[]
+
+=== sample
+
+include::{snippets}/products/http-request.adoc[]
+== Response
+
+=== sample
+
+include::{snippets}/products/http-response.adoc[]
+
+=== body
+include::{snippets}/products/response-body.adoc[]
+

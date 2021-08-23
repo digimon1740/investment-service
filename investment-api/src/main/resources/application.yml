@@ -1,0 +1,19 @@
+spring:
+  redis:
+    port: 63801
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics
+
+logging:
+  level:
+    io:
+      r2dbc:
+        h2: DEBUG
+    org:
+      springframework:
+        data:
+          r2dbc: DEBUG
